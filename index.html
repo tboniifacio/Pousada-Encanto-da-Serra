@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="desktop1-container">
+        <div class="desktop1-desktop1">
+          <img
+            src="public/external/e1d6941c0eaa1b4686432b82d91a8a896cdcb9mv213-112b-700h.png"
+            alt="e1d6941c0eaa1b4686432b82d91a8a896cdcb9mv213"
+            class="desktop1e1d6941c0eaa1b4686432b82d91a8a896cdcb9mv2"
+          />
+          <img
+            src="public/external/rectangle22162-cbh8-700h.png"
+            alt="Rectangle22162"
+            class="desktop1-rectangle22"
+          />
+          <span class="desktop1-text10">Escolha sua suíte</span>
+          <span class="desktop1-text11">Coração da Serra</span>
+          <span class="desktop1-text12">
+            <span>Oferecemos</span>
+            <br />
+            <span>Conforto</span>
+          </span>
+          <span class="desktop1-text16">Depoimentos</span>
+          <span class="desktop1-text17">Suíte Grand Luxe</span>
+          <span class="desktop1-text18">
+            Experiência exclusiva com requinte e comodidades premium para o
+            máximo de conforto.
+          </span>
+          <span class="desktop1-text19">
+            Localizada no coração da serra, a Pousada Encanto da Serra é o
+            destino ideal para quem busca tranquilidade, conforto e contato com
+            a natureza. Cercada por paisagens deslumbrantes e um clima
+            acolhedor, nossa pousada combina charme rústico com o aconchego que
+            você merece.
+          </span>
+          <span class="desktop1-text20">
+            Aqui, cada detalhe foi pensado para proporcionar uma experiência
+            única. Oferecemos suítes confortáveis e bem equipadas, um café da
+            manhã caseiro repleto de sabores regionais e uma área externa
+            perfeita para momentos de relaxamento. Desfrute de trilhas
+            ecológicas, redes para descanso, piscina climatizada e um ambiente
+            que convida à desconexão da rotina.
+          </span>
+          <div class="desktop1-group17">
+            <span class="desktop1-text21">Suíte Essencial</span>
+            <span class="desktop1-text22">
+              Conforto e praticidade para uma estadia agradável, com todas as
+              comodidades essenciais.
+            </span>
+            <img
+              src="public/external/download315-wflf-400w.png"
+              alt="download315"
+              class="desktop1-download3"
+            />
+          </div>
+          <div class="desktop1-component1">
+            <img
+              src="public/external/rectangle8123-dxbg-300h.png"
+              alt="Rectangle8123"
+              class="desktop1-rectangle8"
+            />
+            <img
+              src="public/external/rectangle9126-shb3-300h.png"
+              alt="Rectangle9126"
+              class="desktop1-rectangle9"
+            />
+          </div>
+          <img
+            src="public/external/download4116-zvrk-600h.png"
+            alt="download4116"
+            class="desktop1-download4"
+          />
+          <img
+            src="public/external/casatrschic311-alal-600h.png"
+            alt="CASATRSCHIC311"
+            class="desktop1casatrschic"
+          />
+          <div class="desktop1-group18">
+            <span class="desktop1-text23">Suíte Premium</span>
+            <span class="desktop1-text24">
+              Um toque de sofisticação e aconchego, combinando conforto e
+              detalhes elegantes.
+            </span>
+            <img
+              src="public/external/villa16-qsca-400w.png"
+              alt="Villa16"
+              class="desktop1-villa"
+            />
+          </div>
+          <img
+            src="public/external/lovely19-nks-400w.png"
+            alt="Lovely19"
+            class="desktop1-lovely"
+          />
+          <span class="desktop1-text25">
+            <span class="desktop1-text26">
+              "Uma experiência incrível! O lugar é super aconchegante, perfeito
+              para relaxar e curtir a natureza. O café da manhã caseiro é um
+              espetáculo à parte! Com certeza voltarei."
+            </span>
+            <br />
+            <span class="desktop1-text28"> </span>
+            <span>Mariana R.</span>
+          </span>
+          <span class="desktop1-text30">
+            <span class="desktop1-text31">
+              "A pousada é um verdadeiro refúgio! Quartos confortáveis,
+              atendimento impecável e uma vista maravilhosa. Passamos dias
+              inesquecíveis aqui!"
+            </span>
+            <br />
+            <br />
+            <span>Lucas M.</span>
+          </span>
+          <div class="desktop1-group2">
+            <img
+              src="public/external/tiromdiodamulherdosmileyquelevantafotogrtis128-rlv2-200h.png"
+              alt="TiromdiodamulherdosmileyquelevantaFotoGrtis128"
+              class="desktop1-tiromdiodamulherdosmileyquelevanta-foto-grtis"
+            />
+          </div>
+          <div class="desktop1-group1">
+            <img
+              src="public/external/download5129-ztns-200h.png"
+              alt="download5129"
+              class="desktop1-download5"
+            />
+          </div>
+          <div class="desktop1-group12">
+            <span class="desktop1-text35">Faça sua reserva abaixo</span>
+            <span class="desktop1-text36">
+              Reserve um dia conosco e curta a Pousada Encanto da Serra
+            </span>
+          </div>
+          <div class="desktop1-group13">
+            <span class="desktop1-text37">Localização</span>
+          </div>
+          <div class="desktop1-group11">
+            <div class="desktop1-group5">
+              <img
+                src="public/external/rectangle16552-f1qq-200h.png"
+                alt="Rectangle16552"
+                class="desktop1-rectangle161"
+              />
+              <span class="desktop1-text38">Nome Completo</span>
+            </div>
+            <div class="desktop1-group7">
+              <img
+                src="public/external/rectangle16569-r4qj-200h.png"
+                alt="Rectangle16569"
+                class="desktop1-rectangle162"
+              />
+              <span class="desktop1-text39">Data de entrada</span>
+            </div>
+            <div class="desktop1-group8">
+              <img
+                src="public/external/rectangle16578-8wad-200h.png"
+                alt="Rectangle16578"
+                class="desktop1-rectangle163"
+              />
+              <span class="desktop1-text40">Data de saída</span>
+            </div>
+            <div class="desktop1-group6">
+              <img
+                src="public/external/rectangle18554-b7pj-200h.png"
+                alt="Rectangle18554"
+                class="desktop1-rectangle181"
+              />
+              <span class="desktop1-text41">Número de Telefone</span>
+            </div>
+            <div class="desktop1-group9">
+              <img
+                src="public/external/rectangle18581-u9si-200h.png"
+                alt="Rectangle18581"
+                class="desktop1-rectangle182"
+              />
+              <span class="desktop1-text42">Quantidade de pessoas</span>
+            </div>
+            <div class="desktop1-group3">
+              <img
+                src="public/external/rectangle17553-pwpd-200h.png"
+                alt="Rectangle17553"
+                class="desktop1-rectangle17"
+              />
+              <span class="desktop1-text43">Email</span>
+            </div>
+            <div class="desktop1-group101">
+              <span class="desktop1-text44">Reservar</span>
+            </div>
+            <img
+              src="public/external/rectangle20571-15i4-200h.png"
+              alt="Rectangle20571"
+              class="desktop1-rectangle20"
+            />
+            <img
+              src="public/external/rectangle21143-yk1-200h.png"
+              alt="Rectangle21143"
+              class="desktop1-rectangle21"
+            />
+            <span class="desktop1-text45">Algemira Campos de Oliveira</span>
+            <span class="desktop1-text46">algemira@exemplo.com.br</span>
+            <span class="desktop1-text47">(11) 9 0000-0000</span>
+            <span class="desktop1-text48">01/01/2025</span>
+            <span class="desktop1-text49">01/01/2025</span>
+            <img
+              src="public/external/polygon1583-wn4.svg"
+              alt="Polygon1583"
+              class="desktop1-polygon1"
+            />
+            <img
+              src="public/external/polygon2584-nncc.svg"
+              alt="Polygon2584"
+              class="desktop1-polygon2"
+            />
+          </div>
+          <img
+            src="public/external/vector1588-6t9.svg"
+            alt="Vector1588"
+            class="desktop1-vector1"
+          />
+          <img
+            src="public/external/vector61671-zks.svg"
+            alt="Vector61671"
+            class="desktop1-vector6"
+          />
+          <img
+            src="public/external/vector21667-p2p.svg"
+            alt="Vector21667"
+            class="desktop1-vector2"
+          />
+          <img
+            src="public/external/vector31668-r8pg.svg"
+            alt="Vector31668"
+            class="desktop1-vector3"
+          />
+          <img
+            src="public/external/vector41669-8si.svg"
+            alt="Vector41669"
+            class="desktop1-vector4"
+          />
+          <img
+            src="public/external/vector51670-998m.svg"
+            alt="Vector51670"
+            class="desktop1-vector5"
+          />
+          <img
+            src="public/external/imagem1131-7szl-500h.png"
+            alt="imagem1131"
+            class="desktop1-imagem1"
+          />
+          <span class="desktop1-text50">
+            Rua vila bela, n 134, 37139-200, Serra da Mantiqueira, MG.
+          </span>
+          <span class="desktop1-text51">Endereço</span>
+          <span class="desktop1-text52">Redes sociais</span>
+          <span class="desktop1-text53">
+            <span>Telefone: (00) 9000-0000</span>
+            <br />
+            <span>Whatsapp: (00) 9000-0000</span>
+            <br />
+            <span>E-mail: encantodaserra@gmail.com</span>
+          </span>
+          <span class="desktop1-text59">Contatos</span>
+          <div class="desktop1-group19">
+            <img
+              src="public/external/instagram1svgrepocom1102-16d.svg"
+              alt="instagram1svgrepocom1102"
+              class="desktop1-instagram1svgrepocom1"
+            />
+            <img
+              src="public/external/twittersvgrepocom11032-4kea.svg"
+              alt="twittersvgrepocom11032"
+              class="desktop1-twittersvgrepocom1"
+            />
+            <img
+              src="public/external/facebookcolorsvgrepocom11039-nohf.svg"
+              alt="facebookcolorsvgrepocom11039"
+              class="desktop1-facebookcolorsvgrepocom1"
+            />
+          </div>
+          <div class="desktop1-group15">
+            <div class="desktop1-pousada-encantoda-serra">
+              <img
+                src="public/external/vector1620-a0t.svg"
+                alt="Vector1620"
+                class="desktop1-vector10"
+              />
+              <img
+                src="public/external/vector1621-7y6e.svg"
+                alt="Vector1621"
+                class="desktop1-vector11"
+              />
+              <img
+                src="public/external/vector1622-17xr.svg"
+                alt="Vector1622"
+                class="desktop1-vector12"
+              />
+              <img
+                src="public/external/vector1623-lk7f.svg"
+                alt="Vector1623"
+                class="desktop1-vector13"
+              />
+              <img
+                src="public/external/vector1624-t04h.svg"
+                alt="Vector1624"
+                class="desktop1-vector14"
+              />
+              <img
+                src="public/external/vector1625-7s6k.svg"
+                alt="Vector1625"
+                class="desktop1-vector15"
+              />
+              <img
+                src="public/external/vector1626-wf3o.svg"
+                alt="Vector1626"
+                class="desktop1-vector16"
+              />
+              <img
+                src="public/external/vector1627-inn.svg"
+                alt="Vector1627"
+                class="desktop1-vector17"
+              />
+              <img
+                src="public/external/vector1628-x2ml.svg"
+                alt="Vector1628"
+                class="desktop1-vector18"
+              />
+              <img
+                src="public/external/vector1629-vs2n.svg"
+                alt="Vector1629"
+                class="desktop1-vector19"
+              />
+              <img
+                src="public/external/vector1630-2leq.svg"
+                alt="Vector1630"
+                class="desktop1-vector20"
+              />
+              <img
+                src="public/external/vector1631-m0bh.svg"
+                alt="Vector1631"
+                class="desktop1-vector21"
+              />
+              <img
+                src="public/external/vector1632-z5fj.svg"
+                alt="Vector1632"
+                class="desktop1-vector22"
+              />
+              <img
+                src="public/external/vector1633-o7ejb.svg"
+                alt="Vector1633"
+                class="desktop1-vector23"
+              />
+              <img
+                src="public/external/vector1634-qnce.svg"
+                alt="Vector1634"
+                class="desktop1-vector24"
+              />
+              <img
+                src="public/external/vector1635-2wfa.svg"
+                alt="Vector1635"
+                class="desktop1-vector25"
+              />
+              <img
+                src="public/external/vector1636-lfnb.svg"
+                alt="Vector1636"
+                class="desktop1-vector26"
+              />
+              <img
+                src="public/external/vector1637-03db.svg"
+                alt="Vector1637"
+                class="desktop1-vector27"
+              />
+              <img
+                src="public/external/vector1638-x19h.svg"
+                alt="Vector1638"
+                class="desktop1-vector28"
+              />
+              <img
+                src="public/external/vector1639-1onc.svg"
+                alt="Vector1639"
+                class="desktop1-vector29"
+              />
+              <img
+                src="public/external/vector1640-ymv.svg"
+                alt="Vector1640"
+                class="desktop1-vector30"
+              />
+            </div>
+            <img
+              src="public/external/vector165-k5m.svg"
+              alt="Vector165"
+              class="desktop1-vector31"
+            />
+          </div>
+          <div class="desktop1-group16">
+            <div class="desktop1-group102">
+              <span class="desktop1-text60">Reserve agora mesmo</span>
+            </div>
+          </div>
+          <img
+            src="public/external/vector71672-mpjm.svg"
+            alt="Vector71672"
+            class="desktop1-vector7"
+          />
+          <img
+            src="public/external/rectangle231679-anoo-800h.png"
+            alt="Rectangle231679"
+            class="desktop1-rectangle23"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
